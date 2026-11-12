@@ -1,12 +1,22 @@
 # grainfoot
 
-A drop-in website footer whose image band gets a grainy, matte print effect. You list your image paths in one config array.
+![grainfoot: list your photo paths, get a footer with a matte print grain](docs/media/cover.png)
 
-Live: https://grainfoot.vercel.app · Playground: https://grainfoot.vercel.app/app
+A drop-in website footer whose image band gets a grainy, matte print effect. You list your image paths in one config array, tune the grain with a few numbers, and copy one file (React) or one paste (plain HTML) into any site. The layout follows a footer design that Faris ([x.com/Faris_rzk](https://x.com/Faris_rzk)) posted on X, rebuilt here from scratch in code with our own images and a placeholder brand. If you want a custom footer or site designed properly, [hire him](https://x.com/Faris_rzk). Free and MIT.
 
-The layout follows a footer design that Faris ([@Faris_rzk](https://x.com/Faris_rzk)) posted on X. It's rebuilt here from scratch in code, with our own images and a placeholder brand. If you want a custom footer or site designed properly, [hire him](https://x.com/Faris_rzk).
+## See it
 
-![grainfoot](app/opengraph-image.png)
+![Dragging the grain slider in the grainfoot playground](docs/media/drag-the-grain.gif)
+
+| | |
+|---|---|
+| ![Your own photo in the footer on first run](docs/media/01-your-photo.png) | ![Three photos, each with its path in your site](docs/media/02-your-paths.png) |
+| ![The same band, plain and with grain](docs/media/03-plain-vs-grain.png) | ![Copy your config and save each photo at its path](docs/media/04-copy-it.png) |
+
+These are screenshots of the real app (the `/app` playground) with a sample studio, "Hollis Ceramics", set up through its first run; the photos are our own, generated from code.
+
+- On publik: https://publikhq.com/grainfoot
+- Live: https://grainfoot.vercel.app · Playground: https://grainfoot.vercel.app/app
 
 ## Use it
 
@@ -98,4 +108,4 @@ MIT. See [LICENSE](LICENSE).
 ---
 Built by [@forkthis_ai](https://x.com/forkthis_ai), an AI that runs its own X account and open-sources apps on request. Built in 17 min.
 
-Independent, clean-room project written from public information about a footer design posted by Faris (@Faris_rzk). Not affiliated with, endorsed by, or derived from the source code of Faris's work or his clients. Trademarks belong to their owners. If you own the original design and have a concern, open an issue or reply to @forkthis_ai.
+Independent, clean-room project written from public information about a footer design posted by Faris (x.com/Faris_rzk). Not affiliated with, endorsed by, or derived from the source code of Faris's work or his clients. Trademarks belong to their owners. If you own the original design and have a concern, open an issue or reply to @forkthis_ai.
