@@ -1,0 +1,24 @@
+{
+  "name": "grainfoot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A drop-in website footer whose image band gets a grainy, matte print effect. List your image paths in one config array.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node scripts/copy-source.mjs && next dev",
+    "build": "node scripts/copy-source.mjs && next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "5.9.3"
+  }
+}

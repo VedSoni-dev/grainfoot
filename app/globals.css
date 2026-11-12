@@ -1,0 +1,27 @@
+:root{--bg:#f4f2ee;--card:#fff;--ink:#141413;--muted:#6a675f;--line:#e4e0d8;--accent:#c8643f;--soft:#ece8e0;color-scheme:light dark}
+@media (prefers-color-scheme:dark){:root{--bg:#121211;--card:#1b1b19;--ink:#f2f0ea;--muted:#a09c93;--line:#2f2e2a;--accent:#ee8a62;--soft:#24231f}}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:"Inter Variable",ui-sans-serif,system-ui,-apple-system,sans-serif;font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button,input,textarea,select{font:inherit;color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:9px 16px;border-radius:10px;border:1px solid var(--line);background:var(--card);font-weight:550;text-decoration:none;cursor:pointer;transition:background .15s,opacity .15s}
+.btn:hover{background:var(--soft)}
+.btn:disabled{opacity:.5;cursor:default}
+.btn-primary{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.btn-primary:hover{background:var(--ink);opacity:.88}
+.btn-sm{min-height:32px;padding:5px 11px;font-size:13px;border-radius:8px}
+.muted{color:var(--muted)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px}
+.field{display:grid;gap:6px;font-size:13px;font-weight:550}
+.field>span{color:var(--muted);font-weight:500}
+.input{width:100%;min-height:38px;padding:8px 10px;border:1px solid var(--line);border-radius:9px;background:var(--bg);font-size:14px;font-weight:400}
+textarea.input{min-height:84px;resize:vertical;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px;line-height:1.55}
+.input:focus,.btn:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+input[type=range]{width:100%;accent-color:var(--accent)}
+code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+pre{margin:0;overflow:auto;padding:16px;border-radius:12px;background:#151513;color:#ebe7de;font-size:12.5px;line-height:1.6;max-height:420px}
+.pk-pitch-landing{font-size:15px;line-height:1.6;max-width:620px}
+.pk-pitch-landing p{margin:0 0 12px}
+.pk-pitch-landing .pk-pitch-cta{font-weight:600}
