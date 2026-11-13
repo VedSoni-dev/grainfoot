@@ -1,0 +1,15 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/grainfoot/GrainFooter.tsx",
+      "destination": "https://frontend.vedantsoni.com/footer/GrainFooter.tsx",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://frontend.vedantsoni.com/footer",
+      "permanent": true
+    }
+  ]
+}

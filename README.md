@@ -1,5 +1,7 @@
 # grainfoot
 
+> **Live at [frontend.vedantsoni.com/footer](https://frontend.vedantsoni.com/footer)**, one piece of [fork this frontend](https://github.com/VedSoni-dev/frontend): every fork this front-end build on one site, free with a publik account. This repo keeps the original standalone version.
+
 ![grainfoot: list your photo paths, get a footer with a matte print grain](docs/media/cover.png)
 
 A drop-in website footer whose image band gets a grainy, matte print effect. You list your image paths in one config array, tune the grain with a few numbers, and copy one file (React) or one paste (plain HTML) into any site. The layout follows a footer design that Faris ([x.com/Faris_rzk](https://x.com/Faris_rzk)) posted on X, rebuilt here from scratch in code with our own images and a placeholder brand. If you want a custom footer or site designed properly, [hire him](https://x.com/Faris_rzk). Free and MIT.
@@ -16,7 +18,7 @@ A drop-in website footer whose image band gets a grainy, matte print effect. You
 These are screenshots of the real app (the `/app` playground) with a sample studio, "Hollis Ceramics", set up through its first run; the photos are our own, generated from code.
 
 - On publik: https://publikhq.com/grainfoot
-- Live: https://grainfoot.vercel.app · Playground: https://grainfoot.vercel.app/app
+- Live: https://frontend.vedantsoni.com/footer · Playground: https://frontend.vedantsoni.com/footer
 
 ## Use it
 
@@ -45,7 +47,7 @@ export function SiteFooter() {
 }
 ```
 
-**Plain HTML.** In the [playground](https://grainfoot.vercel.app/app), open the "Plain HTML" tab and copy it. You get the style, the markup and a 10-line script in one paste.
+**Plain HTML.** In the [playground](https://frontend.vedantsoni.com/footer), open the "Plain HTML" tab and copy it. You get the style, the markup and a 10-line script in one paste.
 
 ### Config
 
